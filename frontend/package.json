@@ -1,0 +1,31 @@
+{
+  "name": "pcapcheck-frontend",
+  "private": true,
+  "version": "1.0.8",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "smoke": "esbuild scripts/smoke.tsx --bundle --platform=node --format=cjs --jsx=automatic --log-level=warning --outfile=scripts/smoke.cjs && node scripts/smoke-run.cjs"
+  },
+  "dependencies": {
+    "@tanstack/react-virtual": "^3.10.8",
+    "echarts": "^6.1.0",
+    "echarts-for-react": "^3.0.2",
+    "marked": "^15.0.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.4",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.25.12",
+    "jsdom": "^24.1.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  }
+}

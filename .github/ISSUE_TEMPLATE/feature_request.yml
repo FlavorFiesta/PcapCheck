@@ -1,0 +1,16 @@
+name: 功能建议
+description: 描述希望解决的网络排障场景。
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 使用场景与当前困难
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望行为
+      description: 描述可观察的结果，以及能提供的合成正例、反例。
+    validations:
+      required: true

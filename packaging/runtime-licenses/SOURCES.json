@@ -1,0 +1,10 @@
+{
+  "Tcl-8.6.14.txt": "https://raw.githubusercontent.com/tcltk/tcl/core-8-6-14/license.terms",
+  "Tk-8.6.14.txt": "https://raw.githubusercontent.com/tcltk/tk/core-8-6-14/license.terms",
+  "OpenSSL-3.0.14.txt": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.0.14/LICENSE.txt",
+  "zlib-1.2.13.txt": "https://raw.githubusercontent.com/madler/zlib/v1.2.13/LICENSE",
+  "xz-5.4.6.txt": "https://raw.githubusercontent.com/tukaani-project/xz/v5.4.6/COPYING",
+  "bzip2-1.0.8.txt": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz#bzip2-1.0.8/LICENSE",
+  "libffi-3.4.4.txt": "Installed conda runtime package libffi-3.4.4-hd77b12b_1/info/licenses/LICENSE",
+  "SQLite-3.45.3.txt": "Installed conda runtime package sqlite-3.45.3-h2bbff1b_0/info/licenses/LICENSE.md"
+}

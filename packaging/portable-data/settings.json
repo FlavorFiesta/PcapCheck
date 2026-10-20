@@ -1,0 +1,11 @@
+{
+  "llm": {
+    "enabled": false,
+    "base_url": "",
+    "api_key": "",
+    "model": ""
+  },
+  "masking": {
+    "enabled": false
+  }
+}
